@@ -34,7 +34,7 @@ git
       mode: '0644'
     notify: restart nginx
 
-  handlers:
+  - handlers:
     - name: restart nginx
       service:
         name: nginx
