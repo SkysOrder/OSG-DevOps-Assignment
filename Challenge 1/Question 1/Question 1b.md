@@ -1,4 +1,5 @@
 ## Challenge 1
+### Question 1b
 To maintain High Availablity, it is best to adopt Amazon Elastic Kubernetes Service (Amazon EKS) from AWS.
 
 Kuberenetes is a orchestration tool that provides many functions which one of them is "Self healing". With Self Healing, containers are restarted when they fail, replaces containers and kills containers when they don't respond to health checks. 
@@ -14,5 +15,6 @@ AWS also provides databases which are highly available. As a B2C company, having
 AWS Technology used
 - Amazon EKS
 - AWS Fargate
-- Classic Load Balancer (ELK)
+- Classic Load Balancer (ELB)
 - DynamoDB
+
